@@ -1,0 +1,49 @@
+h3{
+    font-family: monospace;
+    font-size: 20px;
+}
+input{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+    body{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 100vh;
+        background-color: black;
+    }
+
+    .container{
+            background:url(https://th.bing.com/th/id/OIP._mFlZKl2bKyALMeIinPUxgHaEK?rs=1&pid=ImgDetMain);
+           border-radius: 5px;
+             background-repeat: no-repeat;
+             background-size: cover;        
+        }
+    input{
+        padding: 20px;
+        background-color: rgba(67, 67, 67, 0.521);
+        margin: 5px;
+        color: black;
+        border: none;
+        color: white;
+        backdrop-filter: blur(3px);
+        transform: scale(1);
+        border-radius: 5px;
+
+    }
+            input:active{
+            transform: scale(0.9);
+            }    
+    .cc{
+        background-color: rgba(255, 166, 0, 0.393);
+
+        
+    }
+    #equal{
+        background-color: rgba(255, 166, 0, 0.393);
+
+    }
